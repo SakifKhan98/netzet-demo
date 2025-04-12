@@ -37,8 +37,8 @@ A fully responsive landing page built with **Next.js 15 (App Router)**, **TypeSc
 | ✅ **Actionable CTA**    | Get Started Button will take to a Simple Signup Page                                                                       |
 | ✅ **About us Page**     | Clicking About us takes to a simple about Page                                                                             |
 | ✅ **Contact Page**      | Implemented a Contact page with a simple dummy form                                                                        |
-| ✅ **Global Error Page** | Styled error boundary using `app/gloabal-error.tsx`. Custom error page is accessible through `/error_test` route           |
-| ✅ **Custom 404 Page**   | Fallback route using `app/not-found.tsx`.                                                                                  |
+| ✅ **Global Error Page** | Styled error boundary using `app/gloabal-error.tsx`. Custom error page is implemented for end user                         |
+| ✅ **Custom 404 Page**   | Fallback route using `app/not-found.tsx`                                                                                   |
 | ✅ **Loading Overlay**   | Full-screen spinner during lazy loading states. Intentionally added a delay in the home page to show the `Loading Spinner` |
 | ✅ **Font Integration**  | Custom font setup for consistency                                                                                          |
 

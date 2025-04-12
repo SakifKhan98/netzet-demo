@@ -6,7 +6,7 @@ A fully responsive landing page built with **Next.js 15 (App Router)**, **TypeSc
 
 ## 🔗 Live Demo
 
-🚀 **[Click here to view the deployed app](https://fame-tonic-sigma.vercel.app/)**  
+🚀 **[FrameTonic Live Demo](https://fame-tonic-sigma.vercel.app/)**  
 📦 **[Public GitHub Repo](https://github.com/SakifKhan98/netzet-demo)**
 
 ---
@@ -32,15 +32,16 @@ A fully responsive landing page built with **Next.js 15 (App Router)**, **TypeSc
 
 ## 💡 Extra Features Implemented
 
-| Feature                  | Description                                                                                                                |
-| ------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| ✅ **Actionable CTA**    | Get Started Button will take to a Simple Signup Page                                                                       |
-| ✅ **About us Page**     | Clicking About us takes to a simple about Page                                                                             |
-| ✅ **Contact Page**      | Implemented a Contact page with a simple dummy form                                                                        |
-| ✅ **Global Error Page** | Styled error boundary using `app/gloabal-error.tsx`. Custom error page is implemented for end user                         |
-| ✅ **Custom 404 Page**   | Fallback route using `app/not-found.tsx`                                                                                   |
-| ✅ **Loading Overlay**   | Full-screen spinner during lazy loading states. Intentionally added a delay in the home page to show the `Loading Spinner` |
-| ✅ **Font Integration**  | Custom font setup for consistency                                                                                          |
+| Feature                                 | Description                                                                                                                |
+| --------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| ✅ **Actionable CTA**                   | Get Started Button will take to a Simple Signup Page                                                                       |
+| ✅ **About us Page**                    | Clicking About us takes to a simple about Page                                                                             |
+| ✅ **Contact Page**                     | Implemented a Contact page with a simple dummy form                                                                        |
+| ✅ **Global Error Page**                | Styled error boundary using `app/gloabal-error.tsx`. Custom error page is implemented for end user                         |
+| ✅ **Custom 404 Page**                  | Fallback route using `app/not-found.tsx`                                                                                   |
+| ✅ **Loading Overlay**                  | Full-screen spinner during lazy loading states. Intentionally added a delay in the home page to show the `Loading Spinner` |
+| ✅ **Font Integration**                 | Custom font setup for consistency                                                                                          |
+| ✅ **Integrated Vercel Speed Insights** | Custom font setup for consistency                                                                                          |
 
 ---
 

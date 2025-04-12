@@ -6,7 +6,7 @@ A fully responsive landing page built with **Next.js 15 (App Router)**, **TypeSc
 
 ## 🔗 Live Demo
 
-🚀 **[Click here to view the deployed app](https://your-live-demo-link.com)**  
+🚀 **[Click here to view the deployed app](https://fame-tonic-sigma.vercel.app/)**  
 📦 **[Public GitHub Repo](https://github.com/SakifKhan98/netzet-demo)**
 
 ---

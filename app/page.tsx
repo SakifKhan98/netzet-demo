@@ -5,7 +5,7 @@ async function wait(ms: number) {
 }
 
 export default async function Home() {
-  await wait(1500)
+  await wait(3500)
   return (
     <div>
       {/* Hero Section (includes Left + Right Hero) */}

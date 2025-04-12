@@ -43,7 +43,7 @@ export default function RootLayout({
         <Banner />
         {/* Main Content */}
         <div
-          className={`min-h-screen bg-black text-white overflow-x-hidden mx-auto max-w-7xl px-4 sm:px-6 lg:px-8`}
+          className={`min-h-screen bg-black text-white overflow-x-hidden mx-auto px-4 sm:px-20 lg:px-24 xl:px-36 2xl:px-52 ${geistSans.variable} ${geistMono.variable} ${urbanist.variable} ${figtree.variable}`}
         >
           {/* Navigation Bar */}
           <Navbar />

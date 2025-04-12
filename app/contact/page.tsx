@@ -73,7 +73,7 @@ const ContactPage = () => {
           type='submit'
           className='w-full bg-gradient-to-r from-fameRed via-[#f05d8c] to-fameBlue text-white py-2 px-4 rounded-lg transition duration-200 cursor-pointer transform hover:-translate-y-1'
         >
-          Sign Up
+          Send
         </button>
       </form>
     </div>

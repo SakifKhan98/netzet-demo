@@ -5,14 +5,14 @@ import CTAButton from './CTAButton'
 export default function LeftHero() {
   return (
     <div className='w-full md:w-2/3 px-4 py-4 md:py-4 flex flex-col justify-start text-center md:text-left z-100'>
-      <h1 className='order-1 text-2xl sm:text-3xl md:text-3xl lg:text-3xl font-bold font-title leading-tight md:mb-1'>
+      <h1 className='order-1 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-bold font-title leading-tight md:mb-1'>
         Want to Turn Social Media Into a Profitable Career?
       </h1>
-      <h2 className='order-2 text-xl sm:text-3xl md:text-3xl lg:text-3xl font-semibold mb-4 text-fameBlue text-shadow-red font-title'>
+      <h2 className='order-2 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-semibold mb-4 text-fameBlue text-shadow-red font-title'>
         Discover your way to success with Fametonic:
       </h2>
 
-      <ul className='order-3 space-y-2 text-left text-sm sm:text-md md:text-md lg:text-md mb-4'>
+      <ul className='order-3 space-y-2 text-left text-sm sm:text-md md:text-md lg:text-md xl:text-lg 2xl:text-lg mb-4'>
         <li>✨ Start growing your influence right away—no waiting required!</li>
         <li>
           ✨ Create viral TikToks and Reels step by step with easy-to-follow
@@ -27,11 +27,13 @@ export default function LeftHero() {
       </div>
 
       <div className='order-4 sm:order-5 text-xs my-6 opacity-60'>
-        <p>
+        <p className='text-xs sm:text-sm md:text-sm'>
           By clicking &quot;Get Started&quot;, you agree to our Terms, Privacy
           Policy, and Subscription Terms.
         </p>
-        <p className='text-[8px] mt-4'>Fametonic 2025 ©All Rights Reserved.</p>
+        <p className='text-[8px] sm:text-[10px] md:text-xs mt-4'>
+          Fametonic 2025 ©All Rights Reserved.
+        </p>
       </div>
     </div>
   )

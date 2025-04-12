@@ -17,14 +17,14 @@ export default function Navbar() {
           <Image
             src={logo}
             alt='FameTonic Logo'
-            className='w-32 h-auto'
+            className='w-44 h-auto'
             priority
           />
         </Link>
       </div>
 
       {/* Desktop Nav */}
-      <nav className='hidden md:flex space-x-6 text-sm font-medium'>
+      <nav className='hidden md:flex space-x-6 text-md font-medium'>
         <Link
           href='/about'
           className='text-fameGray hover:text-fameBlue transition duration-300 ease-in-out'

@@ -12,12 +12,12 @@ export default function Navbar() {
   return (
     <header className='w-full bg-black text-white py-6 px-6 flex items-center justify-between'>
       {/* Logo */}
-      <div>
+      <div className='flex-1 flex justify-center md:justify-start'>
         <Link href='/' className='flex items-center'>
           <Image
             src={logo}
             alt='FameTonic Logo'
-            className='w-44 h-auto'
+            className='w-36 md:w-44 h-auto'
             priority
           />
         </Link>

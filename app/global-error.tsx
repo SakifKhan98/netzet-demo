@@ -12,7 +12,7 @@ export default function GlobalError({
   error: Error & { digest?: string }
   reset: () => void
 }) {
-  // Log the error when the component mounts
+  // Logging the error when the component mounts
   useEffect(() => {
     console.error('Global error:', error)
   }, [error])

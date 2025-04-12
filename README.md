@@ -40,8 +40,9 @@ A fully responsive landing page built with **Next.js 15 (App Router)**, **TypeSc
 | ✅ **Global Error Page**                | Styled error boundary using `app/gloabal-error.tsx`. Custom error page is implemented for end user                         |
 | ✅ **Custom 404 Page**                  | Fallback route using `app/not-found.tsx`                                                                                   |
 | ✅ **Loading Overlay**                  | Full-screen spinner during lazy loading states. Intentionally added a delay in the home page to show the `Loading Spinner` |
-| ✅ **Font Integration**                 | Custom font setup for consistency                                                                                          |
-| ✅ **Integrated Vercel Speed Insights** | Custom font setup for consistency                                                                                          |
+| ✅ **Font Integration**                 | Integrated custom fonts in a modular way                                                                                   |
+| ✅ **Integrated Vercel Speed Insights** | Added Vercel Speed Insights for realtime monitoring of the deployment                                                      |
+| ✅ **Custom Favicon**                   | Added a custom favicon for the website                                                                                     |
 
 ---
 
@@ -57,23 +58,24 @@ A fully responsive landing page built with **Next.js 15 (App Router)**, **TypeSc
 
 ## 🚧 Challenges Faced
 
-- **Exact Gradient Color Matching**: Picking the exact gradient colors from Figma was tricky. I tried to go as close as possible, but some colors/styles might be slightly off.
-- **Banner Visibility During Loading**: I did not want to show the banner during loading. So, I had to bring styling out of `page.tsx` to `layout.tsx`.
-- **Font Integration**: As the `TailwindCSS V4` does not have `tailwind.config.js` file, it was a bit tricky at first to integrate the necessary fonts. But later I successfully used `next/font` to integrate the fonts.
-- **Sharp Gradient Edges**: Tailwind’s built-in gradients were too smooth for the brand design, so I used utilities of tailwind CSS to create sharper transitions.
-- **Making Pixel Perfect and Responsive**: It was a bit challenging to make the design pixel-perfect, especially with the hero section and the gradient banner. I tried my best to match the design as closely as possible, but some elements may not be 100% identical. Moreover, I did a mistake, I did not notice my browser was in `125% zoom` mode, so I had to re-calibrate the design to match the Figma design.
+- <u> **Exact Gradient Color Matching**</u>: Picking the exact gradient colors from Figma was tricky. I tried to go as close as possible, but some colors/styles might be slightly off.
+- <u> **Banner Visibility During Loading**</u>: I did not want to show the banner during loading. So, I had to bring styling out of `page.tsx` to `layout.tsx`.
+- <u> **Font Integration**</u>: As the `TailwindCSS V4` does not have `tailwind.config.js` file, it was a bit tricky at first to integrate the necessary fonts. But later I successfully used `next/font` to integrate the fonts.
+- <u> **Sharp Gradient Edges**</u>: Tailwind’s built-in gradients were too smooth for the brand design, so I used utilities of tailwind CSS to create sharper transitions.
+- <u> **Making Pixel Perfect and Responsive**</u>: It was a bit challenging to make the design pixel-perfect, especially with the hero section and the gradient banner. I tried my best to match the design as closely as possible, but some elements may not be 100% identical. Moreover, I did a mistake, I did not notice my browser was in `125% zoom` mode, so I had to re-calibrate the design to match the Figma design.
 
 ---
 
 ## 🔧 What Can Be Improved
 
-- **Responsiveness**: Responsive design can be improved further, especially for larger screens.
-- **Unit Testing**: We can integrate basic unit tests with Cypres or Jest or Vitest.
-- **Better Lazy Loading**: We can load heavy assets (e.g., images) using optimized strategies.
-- **Better Gradient**: Gradient Colors can be imrpoved more.
-- **Functional Forms**: `signup` and `contact` forms can be made functional with backend integration.
-- **Dark Mode Support**: We can add a dark/light toggle switch using Tailwind’s `dark` variant.
-- **SEO Optimization**: We can add meta tags and improve SEO for better visibility.
+- <u> **Responsiveness**</u>: Responsive design can be improved further, especially for larger screens.
+- <u> **Unit Testing**</u>: We can integrate basic unit tests with Cypres or Jest or Vitest.
+- <u> **Better Lazy Loading**</u>: We can load heavy assets (e.g., images) using optimized strategies.
+- <u> **Better Gradient**</u>: Gradient Colors can be imrpoved more.
+- <u> **Functional Forms**</u>: `signup` and `contact` forms can be made functional with backend integration.
+- <u> **Dark Mode Support**</u>: We can add a dark/light toggle switch using Tailwind’s `dark` variant.
+- <u> **SEO Optimization**</u>: We can add meta tags and improve SEO for better visibility.
+- <u> **Codebase Optimization**</u>: Code can be made more structured and refactored.
 
 ---
 

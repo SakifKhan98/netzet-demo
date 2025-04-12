@@ -1,4 +1,3 @@
-// import Navbar from '@/app/components/Navbar'
 import Hero from '@/app/components/Hero'
 
 async function wait(ms: number) {

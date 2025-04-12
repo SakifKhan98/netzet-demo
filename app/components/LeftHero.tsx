@@ -1,14 +1,19 @@
 'use client'
 
-import CTAButton from './CTAButton'
+import CTAButton from '@/app/components/CTAButton'
+import { urbanist } from '@/app/fonts'
 
 export default function LeftHero() {
   return (
     <div className='w-full md:w-2/3 px-4 py-4 md:py-4 flex flex-col justify-start text-center md:text-left z-100'>
-      <h1 className='order-1 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-bold font-title leading-tight md:mb-1'>
+      <h1
+        className={`${urbanist.className} order-1 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-bold leading-tight md:mb-1`}
+      >
         Want to Turn Social Media Into a Profitable Career?
       </h1>
-      <h2 className='order-2 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-semibold mb-4 text-fameBlue text-shadow-red font-title'>
+      <h2
+        className={`${urbanist.className} order-2 text-3xl sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-4xl font-semibold mb-4 text-fameBlue text-shadow-red`}
+      >
         Discover your way to success with Fametonic:
       </h2>
 
